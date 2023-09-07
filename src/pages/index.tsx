@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { type FormEvent, useRef } from "react";
 import { SearchIcon } from "~/components/svg/SearchIcon";
-import { SunIcon } from "~/components/svg/SunIcon";
 import { atom, useAtom } from "jotai";
 import { api } from "~/utils/api";
 import Image from "next/image";
@@ -9,7 +8,6 @@ import { PinIcon } from "~/components/svg/PinIcon";
 import { TwitterIcon } from "~/components/svg/TwitterIcon";
 import { LinkIcon } from "~/components/svg/LinkIcon";
 import { BackpackIcon } from "~/components/svg/BackpackIcon";
-import Link from "next/link";
 import { cn } from "~/utils/tailwind-merge";
 import dayjs from "dayjs";
 import { Toaster, toast } from "react-hot-toast";
