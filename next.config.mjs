@@ -17,6 +17,14 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+
+  images: {
+    remotePatterns: [
+      {
+        hostname: "avatars.githubusercontent.com",
+      },
+    ],
+  },
 };
 
 export default config;
